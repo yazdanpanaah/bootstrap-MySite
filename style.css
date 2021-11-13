@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+         url('Vazir.woff2') format('woff2'),
+         url('Vazir.woff') format('woff'),
+         url('Vazir.ttf') format('truetype');
+}
+
+
+.font_all{
+    font-family:Arial, sans serif;
+     
+}
+
+#font2{
+    font-size: 20px;
+    font-weight: bold;
+}
+#font3{
+    font-size: 20px;
+}
+#mysite{
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+
+}
+
+.photo{
+    background-image: url(showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+a:hover{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button1 {
+    background-color: orange;
+    color: aliceblue;
+    width: 80px;
+    height: 40px;
+}
+.button:hover{
+    background-color: white;
+    color: orange;
+}
+.database{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 26px;
+    margin-left: 10px;
+   
+    
+}
+h6{
+    border-bottom: 1px dotted rgba(77, 72, 72, 0.383);
+}
+.image2{
+    background-image: url(section2.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    
+            
+}
+.padding{
+    padding-right: 20%;
+}
+.icon{
+
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        padding: 30px;
+        color: white;
+        font-size: 25px;
+        background-color: rgb(34, 34, 34);
+    
+}
